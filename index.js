@@ -1,27 +1,25 @@
 //Part1: Fizz Buzz
-// for (let i = 0; i <= 100; i++) {
-// 	if (i % 3 === 0 && i % 5 === 0) {
-// 		console.log("Fizz Buzz");
-// 	} else if (i % 3 === 0) {
-// 		console.log("Fizz");
-// 	} else if (i % 5 === 0) {
-// 		console.log("Buzz");
-// 	} else {
-// 		console.log(i);
-// 	}
-// }
+for (let i = 0; i <= 100; i++) {
+	if (i % 3 === 0 && i % 5 === 0) {
+		console.log("Fizz Buzz");
+	} else if (i % 3 === 0) {
+		console.log("Fizz");
+	} else if (i % 5 === 0) {
+		console.log("Buzz");
+	} else {
+		console.log(i);
+	}
+}
 
 //Part 2: Prime Time
-// let n = 4;
-// while (n < Infinity) {
-// 	n++;
-// 	if (n % 2 !== 0 && n % 3 !== 0) {
-// 		console.log(n);
-// 		break;
-// 	}
-// }
-
-//Part 3: Feeling Loopy
+let n = 4;
+while (n < Infinity) {
+	n++;
+	if (n % 2 !== 0 && n % 3 !== 0) {
+		console.log(n);
+		break;
+	}
+}
 
 //Part 3: Feeling Loopy
 let str =
